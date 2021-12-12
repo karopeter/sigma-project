@@ -1,6 +1,7 @@
 import React from 'react';
 import bank6 from '../../assets/img/bank6.png';
 import PaymentDetails from '../payment-details/payment-details.component';
+import ProcessPayment from '../Process-Payment/Process-Payment.component';
 import './Payments.styles.scss';
 
 const Payments = () => {
@@ -21,6 +22,7 @@ const Payments = () => {
       </figcaption>
     </figure>
      <PaymentDetails />
+     <ProcessPayment />
     </div>
   );
 };
