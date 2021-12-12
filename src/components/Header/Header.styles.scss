@@ -1,0 +1,27 @@
+$color-primary-blue: blue;
+$color-light-purple:#8660C1;
+
+.navbar {
+    background: #fff;
+    padding: 1em;
+
+  .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: $color-primary-blue;
+    font-size: 1.2rem;
+  }
+
+  .start {
+      display: flex;
+      place-content: space-between;
+  }
+}
+
+.new-trem {
+  padding: .5rem;
+  margin-left: 70rem;
+  color: $color-light-purple;
+  position: relative;
+  font-size: 1.5rem;
+}

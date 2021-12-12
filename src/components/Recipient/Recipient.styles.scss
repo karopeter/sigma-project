@@ -1,0 +1,66 @@
+$color-dark: #000;
+$color-primary: #FFFFFF;
+$color-light-purple: #8660C1;
+
+
+.heading-inset {
+    margin-top: 2rem;
+    color: $color-dark;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+}
+
+.img--1,
+.img--2,
+.img--3 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.credit__card--1,
+.credit__card--3 {
+   background: $color-primary;
+}
+
+.credit__card--2 {
+  background: $color-light-purple;
+}
+
+.credit__card--1,
+.credit__card--2,
+.credit__card--3 {
+  width: 80%;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+.lock__element {
+  margin-left: 1rem;
+  color: $color-dark;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.lock__file {
+    color: $color-primary;
+    margin-left: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.long__copy {
+  margin-left: 6rem;
+}
+
+.long__copy--1 {
+  margin-left: 6rem;
+  color: $color-primary;
+}

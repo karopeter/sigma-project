@@ -1,0 +1,60 @@
+$color-primary: #FFFFFF;
+$color-dark: #000;
+
+.search {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__input {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      background-color: $color-primary;
+      border: 3px;
+      padding: .7rem 2rem;
+      width: 80%;
+      transition: all .2s;
+      margin-top: 1.5rem;
+      margin-right: -3.25rem;
+      border-radius: 6px;
+
+      &:focus {
+        outline: none;
+        width: 30%;
+        background-color: $color-primary;
+      }
+
+      &::-webkit-input-placeholder {
+        font-weight: 100;
+        color: #ccc;
+      }
+  }
+
+  &__input:focus + &__button {
+    background-color: $color-primary;
+  }
+
+  &__button {
+    border: none;
+    background-color: $color-primary;
+    margin-top: 1.5rem;
+
+    &:focus {
+        outline: none;
+    }
+  
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
+  &__icon {
+      height: 2rem;
+      width: 2rem;
+      fill: $color-primary;
+  }
+}
+
+

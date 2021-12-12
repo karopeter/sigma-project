@@ -1,0 +1,23 @@
+$color-dark: #000;
+$color-primary: #fff;
+
+.heading--inset {
+    margin-top: 2rem;
+    color: $color-dark;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+}
+
+.slide {
+    background: #8660C1;
+    width: 70%;
+    height: 70%;
+    border-radius: 6px;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: $color-primary;
+}
